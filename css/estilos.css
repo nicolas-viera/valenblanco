@@ -1,0 +1,604 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* contacto */
+.link {
+  color: black;
+}
+
+.section__contacto__mobile {
+  display: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.header__logotipo {
+  width: 160px;
+  height: 80px;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+.header__merendero {
+  font-family: sensei;
+  font-size: 25px;
+  text-align: start;
+  margin-bottom: 10px;
+}
+
+.header__infancias {
+  font-family: dreaming;
+  font-size: 20px;
+  text-align: bold;
+  margin: 0%;
+}
+
+.animate__animated.animate__heartBeat {
+  --animate-duration: 3s;
+}
+
+.section__tablet {
+  display: none;
+}
+
+.nav__lista {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+}
+
+.nav__link {
+  color: black;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: indie;
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+  padding-right: 1rem;
+}
+
+.nav__link:hover {
+  color: white;
+  background-color: #8a75ff;
+  border-radius: 20px;
+}
+
+.chicos__carrusel {
+  left: 25%;
+  height: 600px;
+  width: 50%;
+}
+
+.chicos__fondos {
+  height: 600px;
+}
+
+.background__index__main {
+  background-image: url(../imagenes/footerchicossinchicos.jpg);
+  background-repeat: round;
+  background-size: cover;
+}
+
+.background__index__header {
+  background-color: #9da0ff;
+}
+
+.background__index__footer {
+  background-image: url(../imagenes/chicos.jpg);
+  background-repeat: round;
+  background-size: contain;
+}
+
+@font-face {
+  font-family: sensei;
+  src: url(../fuentes/Sensei.otf);
+}
+
+@font-face {
+  font-family: dreaming;
+  src: url(../fuentes/Dreaming-Outloud-Script.otf);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.video_construccion {
+    align-items: center;
+    height: 500px;
+    width: 350px;
+}
+
+.eslogan__titulo {
+  font-family: dancing;
+  color: black;
+  font-size: 38px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.footer__principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__nav__lista {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 5px;
+}
+
+.footer__nav__link {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: indie;
+  font-weight: bold;
+}
+
+.footer__perdido {
+  font-size: 28px;
+  font-family: sensei;
+  text-align: center;
+}
+
+.seguinos {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20%;
+  margin-right: 2%;
+}
+
+.seguinos__logo__ig {
+  display: block;
+  font-family: sensei;
+  font-size: 20px;
+}
+
+.botonig {
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+}
+
+.whatsapp {
+  display: inline block;
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+  margin-right: 2rem;
+  margin-bottom: 6rem;
+}
+
+@font-face {
+  font-family: dancing;
+  src: url(../fuentes/DancingScript-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: indie;
+  src: url(../fuentes/IndieFlower-Regular.ttf);
+}
+
+.nosotros {
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.nosotros__titulo, .nosotros__parrafo, .nosotros__subtitulo {
+  list-style: none;
+  font-family: indie;
+  font-size: 44px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.nosotros__parrafo, .nosotros__subtitulo {
+  font-size: 18px;
+  padding-left: 1rem;
+  margin: 1rem;
+  text-align: start;
+  text-decoration: none;
+}
+
+.nosotros__subtitulo {
+  font-size: 20px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.grid__iframeig {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 750px 750px 750px 750px 750px 750px;
+  grid-template-areas: "ele1 ele2 ele3"
+ "ele4 ele6 ele7"
+ "ele10 ele8 ele9"
+ "ele5 ele11 ele13"
+ "ele12 ele14 ele15"
+ ". ele16 .";
+  justify-content: space-evenly;
+  column-gap: 15px;
+  row-gap: 100px;
+}
+
+.grid__iframeig__hijo {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid__iframeig__hijo__1 {
+  grid-area: ele1;
+}
+
+.grid__iframeig__hijo__2 {
+  grid-area: ele2;
+}
+
+.grid__iframeig__hijo__3 {
+  grid-area: ele3;
+}
+
+.grid__iframeig__hijo__4 {
+  grid-area: ele4;
+}
+
+.grid__iframeig__hijo__5 {
+  grid-area: ele5;
+}
+
+.grid__iframeig__hijo__6 {
+  grid-area: ele6;
+}
+
+.grid__iframeig__hijo__7 {
+  grid-area: ele7;
+}
+
+.grid__iframeig__hijo__8 {
+  grid-area: ele8;
+}
+
+.grid__iframeig__hijo__9 {
+  grid-area: ele9;
+}
+
+.grid__iframeig__hijo__10 {
+  grid-area: ele10;
+}
+
+.grid__iframeig__hijo__11 {
+  grid-area: ele11;
+}
+
+.grid__iframeig__hijo__12 {
+  grid-area: ele12;
+}
+
+.grid__iframeig__hijo__13 {
+  grid-area: ele13;
+}
+
+.grid__iframeig__hijo__14 {
+  grid-area: ele14;
+}
+
+.grid__iframeig__hijo__15 {
+  grid-area: ele15;
+}
+
+.grid__iframeig__hijo__16 {
+  grid-area: ele16;
+}
+
+.parrafo__talleres {
+  font-family: sensei;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    display: none;
+  }
+  .header__tablet {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .header__logotipo {
+    width: 140px;
+    height: 60px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+  }
+  .header__merendero {
+    font-family: sensei;
+    font-size: 25px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  .header__infancias {
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+  }
+  .section__tablet {
+    display: contents;
+  }
+  .background__index__main {
+    background-image: url(../imagenes/footerchicossinchicos.jpg);
+    background-repeat: round;
+    background-size: cover;
+  }
+  .background__index__footer {
+    background-image: url(../imagenes/chicostablet.jpg);
+    background-repeat: round;
+    background-size: contain;
+  }
+  .nav__lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px;
+    gap: 1rem;
+    padding-bottom: 1rem;
+  }
+  .nav__link {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: indie;
+    padding: 1rem;
+  }
+  .nav__link__link:hover {
+    border-radius: 7px;
+  }
+  .footer__principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer__perdido {
+    font-size: 18px;
+    font-family: sensei;
+    text-align: start;
+    margin-bottom: 5px;
+  }
+  .footer__nav__lista {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+  .seguinos {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .seguinos__logo__ig {
+    font-family: sensei;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 1rem;
+  }
+  .botonig {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+  /* Nosotros tablet */
+  .nosotros {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .nosotros__titulo, .nosotros__parrafo, .nosotros__subtitulo {
+    font-size: 30px;
+    text-align: center;
+  }
+  .nosotros__parrafo, .nosotros__subtitulo {
+    font-size: 12px;
+  }
+  .nosotros__subtitulo {
+    font-size: 14px;
+  }
+  /* Que hacemos tablet */
+  .grid__iframeig {
+    display: grid;
+    grid-template-columns: 33% 33%;
+    grid-template-rows: 600px 600px 600px 680px 680px 680px 540px 670px;
+    justify-content: space-around;
+    grid-template-areas: "ele1 ele2"
+ "ele3 ele4"
+ "ele6 ele7"
+ "ele10 ele8"
+ "ele9 ele12"
+ "ele14 ele16"
+ "ele5 ele13"
+ "ele11 ele15";
+    margin-top: 50px;
+    column-gap: 15px;
+    row-gap: 30px;
+  }
+  .parrafo__talleres {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .header {
+    display: none;
+  }
+  .header__tablet {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .header__logotipo {
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+  }
+  .header__merendero {
+    font-family: sensei;
+    font-size: 15px;
+    text-align: center;
+    margin: 5px;
+  }
+  .header__infancias {
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .background__index__footer {
+    background-image: url(../imagenes/chicosmobile.jpg);
+  }
+  .section__tablet {
+    display: contents;
+  }
+  .nav__lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px;
+    gap: 8px;
+    padding-bottom: 7px;
+  }
+  .nav__link {
+    color: black;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: indie;
+    padding: 7px;
+  }
+  .nav__link:hover {
+    border-radius: 7px;
+  }
+  .eslogan__titulo {
+    font-family: dancing;
+    color: black;
+    font-size: 38px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 2%;
+  }
+  .eslogan__subtitulo {
+    font-family: dancing;
+    color: black;
+    font-size: 15px;
+    text-align: right;
+    padding-right: 2%;
+  }
+  .chicos__carrusel {
+    width: 60%;
+    height: 250px;
+    left: 20%;
+  }
+  .chicos__fondos {
+    height: 300px;
+  }
+  .footer__perdido {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  .footer__nav__lista {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 0.5rem;
+    align-items: start;
+    margin-left: 10px;
+  }
+  .footer__nav__link {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: indie;
+    padding: 2px;
+  }
+  .seguinos__logo__ig {
+    font-family: sensei;
+    text-align: end;
+    font-size: 12px;
+    margin-right: 5px;
+  }
+  .botonig {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+  .whatsapp {
+    margin-right: 1rem;
+  }
+  /* Nosotros mobile */
+  .nosotros {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .nosotros__titulo, .nosotros__parrafo, .nosotros__subtitulo {
+    font-size: 20px;
+  }
+  .nosotros__subtitulo {
+    font-size: 12px;
+  }
+  .nosotros__parrafo, .nosotros__subtitulo {
+    font-size: 10px;
+  }
+  /* Que hacemos mobile */
+  .grid__iframeig {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    column-gap: 15px;
+    row-gap: 30px;
+  }
+  .parrafo__talleres {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  /* contacto */
+  .section__contacto__desktop {
+    display: none;
+  }
+  .section__contacto__mobile {
+    display: contents;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */
